@@ -1,1 +1,61 @@
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
+.card-heading {
+  color: #f00; /* Replace with your desired color for the heading */
+  font-weight: bold;
+}
+
+.price-tag {
+  color: rgb(235, 4, 74); /* Replace with your desired color for the price */
+}
+
+.price-tag {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main {
+  font-style: bold;
+  color: rgb(5, 7, 1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row2 {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: flex-start; /* Align items to the top */
+  flex-wrap: wrap;
+}
+
+.internalCard {
+  margin: 10px;
+  text-align: center;
+}
+
+.internalCard img {
+  height: 250px;
+  width: 250px;
+}
+
+.internalCard p {
+  margin-top: 10px;
+}
+
+.show-more-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}

@@ -22,8 +22,10 @@ export default function CategoryPage() {
                 <h1>{categoryName.toUpperCase()}</h1>
                 <p className="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officia nihil! Nemo sunt reprehenderit voluptates amet itaque libero in unde, molestias illo veniam, dolore veritatis eaque ipsum. Molestiae, nam architecto!</p>
             </div>
-
             <div className="row">
+            <div className="col-md-4"></div>
+           
+        
                 {
                     products.map((val, key) =>
 
