@@ -17,7 +17,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://media.istockphoto.com/id/1370746615/photo/many-types-georgian-shish-kebab-mtsvadi-with-sauce-and-onion-georgian-cuisine-a-large-laid.jpg?s=612x612&w=0&k=20&c=DylisDs6eQvtBHPxQ79jeAoKvZcMwh0Wp0oJcu9gjag="
+          src="https://d2liqplnt17rh6.cloudfront.net/coverImages/cover_b8c68dce-599a-4cea-af6e-777ee789889b-115.jpeg"
           alt="Second slide" height={500}
         />
         <Carousel.Caption>

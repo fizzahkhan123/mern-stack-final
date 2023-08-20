@@ -32,10 +32,11 @@
   justify-content: flex-start; /* Align items to the left */
   align-items: flex-start; /* Align items to the top */
   flex-wrap: wrap;
+  margin-left: 5%;
 }
 
 .internalCard {
-  margin: 10px;
+  margin: 20px;
   text-align: center;
 }
 
@@ -51,11 +52,42 @@
 .show-more-button {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1px;
+}
+
+.show-more-button button{
+  color: darkorange;
+  border: 0px;
+  background-color: transparent;
 }
 
 .header {
   margin-top: 50px;
   margin-left: 40px;
   margin-bottom: 60px;
+}
+
+.lining {
+  color:rgb(196, 121, 8);
+  
+}
+
+.footer {
+  background-color: #b37d0b;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer2{
+  background-color: black;
+color: gold;
+}
+
+.form-body *{
+  margin-top: 10px;
+  margin-bottom:10px
+}
+
+.tableActionColumn *{
+  margin: 10px
 }
